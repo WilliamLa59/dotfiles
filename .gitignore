@@ -1,0 +1,20 @@
+cat > ~/dotfiles/.gitignore <<'EOF'
+# caches & junk
+**/cache*/**
+**/Cache*/**
+**/*.log
+**/*.lock
+**/*.sqlite*
+**/.DS_Store
+
+# secrets (expand as needed)
+**/.env
+**/.env.*
+**/*credentials*
+**/*secret*
+**/*token*
+**/gh/hosts.yml
+**/rclone/rclone.conf
+**/aws/credentials
+**/docker/config.json
+EOF
