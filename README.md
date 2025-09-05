@@ -12,7 +12,7 @@ Ensure you have the following installed on your system
 pacman -S git
 ```
 
-$$$ Stow
+### Stow
 
 ```
 pacman -S stow
