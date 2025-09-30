@@ -45,7 +45,7 @@ import_one() {
 # run stow so ~/.config/<name> becomes a symlink to the repo
 restow() {
   echo "stowing package '$PKG' from $DOTFILES into $TARGET"
-  (cd "$DOTFILES" && stow -t "$TARGET" "$PKG")
+  (cd "$DOTFILES" && stow .)
 }
 
 main() {

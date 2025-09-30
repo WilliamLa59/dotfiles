@@ -1,4 +1,4 @@
-#files: 1009	version: 5.9
+#files: 1014	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -847,6 +847,7 @@ _comps=(
 'mencal' '_mencal'
 'mere' '_mere'
 'merge' '_rcs'
+'meson' '_meson'
 'metaflac' '_flac'
 'mformat' '_mtools'
 'mgv' '_pspdf'
@@ -954,6 +955,7 @@ _comps=(
 'nginx' '_nginx'
 'ngrep' '_ngrep'
 'nice' '_nice'
+'ninja' '_ninja'
 'nkf' '_nkf'
 'nl' '_nl'
 'nm' '_nm'
@@ -992,6 +994,7 @@ _comps=(
 'opusdec' '_opustools'
 'opusenc' '_opustools'
 'opusinfo' '_opustools'
+'p11-kit' '_p11-kit'
 'p4' '_perforce'
 'p4d' '_perforce'
 'pacat' '_pulseaudio'
@@ -1462,6 +1465,7 @@ _comps=(
 'true' '_nothing'
 'truncate' '_truncate'
 'truss' '_truss'
+'trust' '_trust'
 'tryaffix' '_ispell'
 'tsc' '_tsc'
 'ts-node' '_ts-node'
@@ -1695,6 +1699,7 @@ _comps=(
 'yafc' '_yafc'
 'yarn' '_yarn'
 'yash' '_sh'
+'yay' '_yay'
 'ypbind' '_yp'
 'ypcat' '_yp'
 'ypmatch' '_yp'
@@ -1899,33 +1904,34 @@ autoload -Uz _afew _alacritty _android _archlinux-java _artisan \
             _jp2a _jrnl _kak _kde-inhibit _kernel-install \
             _kitchen _kitty _knife _language_codes _libinput \
             _lilypond _localectl _loginctl _lsmod _lunchy \
-            _machinectl _mako _makoctl _mc _middleman \
-            _mina _mix _mkcert _mkinitcpio _mssh \
-            _mussh _mvn _nano _nanoc _neofetch \
-            _netctl _networkctl _networkQuality _nftables _node \
-            _nvm _oomctl _openssl _openvpn3 _optirun \
-            _paccache _pacdiff _paclist _paclog-pkglist _pacman \
-            _pacscripts _pacsearch _pacsort _pactree _parallel \
-            _paru _patool _periscope _pgsql_utils _phing \
-            _pixz _pkcon _pkgfile _play _playerctl \
-            _pm2 _port _powerprofilesctl _protoc _pulseaudio \
-            _pygmentize _qmk _rails _ralio _rankmirrors \
-            _redis-cli _resolvectl _rfkill _rg _rkt \
-            _rmlint _rmmod _rslsync _rspec _rsvm \
-            _rubocop _run0 _satty _sbctl _sbt \
-            _scala _screencapture _scrub _sd _sdd \
-            _sd_hosts_or_user_at_host _sdkmanager _sd_machines _sd_outputmodes _sd_unit_files \
-            _sensors _sensors-detect _setcap _setup.py _sfdx \
-            _shellcheck _showoff _snapper _srm _stack \
-            _starship _subliminal _supervisorctl _svm _swaylock \
-            _swww _systemctl _systemd _systemd-analyze _systemd-delta \
-            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
-            _teamocil _thor _timedatectl _tldr _tmuxinator \
-            _tox _tsc _ts-node _udevadm _udiskie \
-            _udiskie-canonical_paths _udiskie-mount _udiskie-umount _udisks2 _udisksctl \
-            _ufw _updpkgsums _upower _varlinkctl _virtualbox \
-            _vnstat _wemux _wg-quick _wl-copy _wlogout \
-            _wl-paste _wpctl _xsel _yarn _zcash-cli \
+            _machinectl _mako _makoctl _mc _meson \
+            _middleman _mina _mix _mkcert _mkinitcpio \
+            _mssh _mussh _mvn _nano _nanoc \
+            _neofetch _netctl _networkctl _networkQuality _nftables \
+            _ninja _node _nvm _oomctl _openssl \
+            _openvpn3 _optirun _p11-kit _paccache _pacdiff \
+            _paclist _paclog-pkglist _pacman _pacscripts _pacsearch \
+            _pacsort _pactree _parallel _paru _patool \
+            _periscope _pgsql_utils _phing _pixz _pkcon \
+            _pkgfile _play _playerctl _pm2 _port \
+            _powerprofilesctl _protoc _pulseaudio _pygmentize _qmk \
+            _rails _ralio _rankmirrors _redis-cli _resolvectl \
+            _rfkill _rg _rkt _rmlint _rmmod \
+            _rslsync _rspec _rsvm _rubocop _run0 \
+            _satty _sbctl _sbt _scala _screencapture \
+            _scrub _sd _sdd _sd_hosts_or_user_at_host _sdkmanager \
+            _sd_machines _sd_outputmodes _sd_unit_files _sensors _sensors-detect \
+            _setcap _setup.py _sfdx _shellcheck _showoff \
+            _snapper _srm _stack _starship _subliminal \
+            _supervisorctl _svm _swaylock _swww _systemctl \
+            _systemd _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn \
+            _systemd-path _systemd-run _systemd-tmpfiles _teamocil _thor \
+            _timedatectl _tldr _tmuxinator _tox _trust \
+            _tsc _ts-node _udevadm _udiskie _udiskie-canonical_paths \
+            _udiskie-mount _udiskie-umount _udisks2 _udisksctl _ufw \
+            _updpkgsums _upower _varlinkctl _virtualbox _vnstat \
+            _wemux _wg-quick _wl-copy _wlogout _wl-paste \
+            _wpctl _xsel _yarn _yay _zcash-cli \
             _cdr _all_labels _all_matches _alternative _approximate \
             _arg_compile _arguments _bash_completions _cache_invalid _call_function \
             _combination _complete _complete_debug _complete_help _complete_help_generic \
